@@ -4,7 +4,7 @@
   "description": "A simple notes app with basic implementation of RESTful API using Hapi Library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "Raihan Khairul Rochman",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/raihankr/web-notes-app/issues"
   },
-  "homepage": "https://github.com/raihankr/web-notes-app#readme"
+  "homepage": "https://github.com/raihankr/web-notes-app#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.1.0"
+  }
 }
