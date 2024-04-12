@@ -4,7 +4,7 @@
   "description": "A simple notes app with basic implementation of RESTful API using Hapi Library",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "Raihan Khairul Rochman",
@@ -22,5 +22,9 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "nanoid": "^3.3.7"
   }
 }
